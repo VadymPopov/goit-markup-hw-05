@@ -580,6 +580,7 @@ transition: color 250ms var(--timing-function);
     height: 30px;
     border-radius: 50%;
     padding: 9px 10px 10px 9px;
+    cursor: pointer;
 }
 
 .btn-container {
