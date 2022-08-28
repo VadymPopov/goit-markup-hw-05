@@ -305,7 +305,7 @@ transition: color 250ms var(--timing-function);
     padding-top: 0;
 }
 
-.work-item {
+.work-container {
     position: relative;
 }
 
@@ -523,12 +523,11 @@ transition: color 250ms var(--timing-function);
     width: 44px;
     height: 44px;
 
-    transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
 }
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-    color: var(--main-light-color);
     background-color: var(--accent-color);
 }
 
@@ -542,12 +541,13 @@ transition: color 250ms var(--timing-function);
 
     opacity: 1;
 
-    transition: opacity 250ms var(--timing-function);
+    transition: opacity 250ms var(--timing-function), visiability 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 }
 
 .modal {
