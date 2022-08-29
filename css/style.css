@@ -84,12 +84,16 @@ p {
     align-items: center;
 }
 
+.accent-header {
+    color: var(--main-dark-color);
+}
+
 .logo-header {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--main-dark-color);
+    color: var(--accent-color);
 }
 
 .header-list {
